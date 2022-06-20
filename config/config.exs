@@ -8,10 +8,11 @@
 use Mix.Config
 
 config :concurs, Concurso,
-  database: "concurs_concurso",
-  username: "user",
-  password: "pass",
-  hostname: "localhost"
+  database: "d5imfb3a0lh0nq",
+  username: "lqyvkteughqafk",
+  password: "11da72cfebf268d6cf1605e3e69acd106b905fc5bcc343e4c39ab92fe8265f37",
+  hostname: "ec2-52-22-136-117.compute-1.amazonaws.com",
+  port: "5432"
 
 config :concurs,
   ecto_repos: [Concurs.Repo]
